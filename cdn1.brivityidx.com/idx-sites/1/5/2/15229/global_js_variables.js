@@ -1,0 +1,1 @@
+window.globalSiteVariables = {"siteId":15229,"userId":100590,"brUserId":13862566,"brBrokerId":7329032,"siteMlses":[{"mls_id":"28","description":"My Florida Regional MLS","table_prefix":"mfrmls","office_id":"254590063","agent_id":"254513287"}]};

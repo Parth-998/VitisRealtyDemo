@@ -1,0 +1,381 @@
+#premium-navigation {background-color: #222; position: relative; z-index: 11;}
+#premium-navigation .main-nav {position: relative; z-index: 4;}
+#premium-navigation .navbar-brand {display: flex; justify-content: center; flex-direction: column; height: 100px; padding: 0; max-width: 300px;}
+#premium-navigation .navbar-brand img {max-height: 90px;}
+#premium-navigation .navbar-nav > li {display: flex; justify-content: center; height: 100px; flex-direction: column; margin: 0;}
+#premium-navigation .navbar-nav > li > a {color: #fff; text-transform: uppercase; font-size: 16px; font-weight: 700; padding: 0 10px;}
+#premium-navigation .navbar-nav > li:last-child > a {padding: 10px 20px; border: 1px solid #fff; border-radius: 0;}
+#premium-navigation .navbar-nav > li:last-child > a:hover {padding: 10px 20px; border: 1px solid #b40101; background-color: #b40101; color: #fff !important;}
+#premium-navigation .navbar-nav > li > a:hover, #premium-navigation .navbar-nav > li > a:focus {outline: none; outline-offset: 0; text-decoration: none; background: transparent;}
+#premium-navigation .navbar-nav > li.active > a {background-color: rgba(0,0,0,.2);}
+#premium-navigation .navbar-nav > li > a i {margin-left: 6px;}
+#premium-navigation .navbar-toggle::before {color: #fff;}
+
+	@media (max-width: 1200px) {
+		#premium-navigation .navbar-nav > li > a {font-size: 14px;}
+		#premium-navigation .navbar-brand {max-width: 220px;}
+	}
+
+	@media (min-width: 1025px) {
+		#premium-navigation .navbar-nav .dropdown-menu {background: #111; border-radius: 0; margin-top: 0;}
+		#premium-navigation .navbar-nav .dropdown-menu > li {border-bottom: 1px solid #333; margin: 0}
+		#premium-navigation .navbar-nav .dropdown-menu > li:hover {background-color: #222;}
+		#premium-navigation .navbar-nav .dropdown-menu > li:last-child {border-bottom: 0;}
+		#premium-navigation .navbar-nav .dropdown-menu > li > a {padding: 12px 18px; color: #aaa; font-size: 16px;}
+		#premium-navigation .navbar-nav .dropdown-menu > li > a:hover, #premium-navigation .navbar-nav .dropdown-menu > li > a:focus {color: #fff; border-radius: 0;}
+	}
+
+	@media (max-width: 1024px) {
+		#premium-navigation .navbar-brand, #premium-navigation .navbar-toggle {height: 100px; margin-left: 0; max-width: 220px;}
+		#premium-navigation .navbar-brand {padding: 0 0 0 20px;}
+		#premium-navigation .navbar-toggle {padding: 0 20px 0 0;}
+		#premium-navigation .navbar-brand img {max-height: 80px;}
+		#premium-navigation .main-nav .navbar-collapse {max-height: 100%; background: #000;}
+		#premium-navigation .navbar-nav > li {border-bottom: 1px solid #333; display: block; justify-content: unset; height: auto; flex-direction: unset; margin: 0;}
+		#premium-navigation .navbar-nav > li > a {font-size: 14px; padding: 18px;}
+		#premium-navigation .navbar-nav .dropdown-menu {position: relative; margin-top: 0; border-radius: 0; margin-bottom: 20px; background-color: #111;}
+		#premium-navigation .navbar-nav .dropdown-menu > li {margin-bottom: 0;}
+		#premium-navigation .navbar-nav .dropdown-menu > li > a {padding: 16px 16px 16px 30px !important;}
+		#premium-navigation .navbar-brand img {max-height: 90px;}
+		#premium-navigation .main-nav .navbar-collapse {padding-bottom: 20px;}
+		#premium-navigation .navbar-nav > li {height: auto;}
+		#premium-navigation .navbar-nav > li:last-child > a {padding: 10px 20px; border: 0; background: #fff; color: #555 !important;}
+	}
+
+	@media (max-width: 1024px) {
+		#premium-navigation .navbar-nav .dropdown-menu {margin-bottom: 0px;}
+	}
+
+
+/* Header Block from Premium 1 */
+#premium-1 {background-color: #000; position: relative;}
+	#site-registration-bar ~ #premium-1 .header-content {min-height: unset;} /* used to show up on canvas, but hide on published mode */
+#premium-1 .container {width: 90%; position: relative; z-index: 3;}
+#premium-1 .header-content {height: calc(100vh - 140px); min-height: 800px; display: flex; flex-direction: column; justify-content: center; overflow-x: hidden; padding-bottom: 0; padding-top: 0; position: relative; z-index: 3;}
+
+#premium-1 h1 {font-size: 46px; font-weight: 300;}
+#premium-1 h1 span {border-bottom: 4px solid #fff;}
+#premium-1 .nav-tabs > li {float: none; display: inline-block;}
+#premium-1 .nav-tabs > li > a, #premium-1 .nav-tabs > li > a:hover, #premium-1 .nav-tabs > li > a:focus {background: transparent; color: #fff !important; opacity: 1; border-radius: 0; border: 0; text-transform: uppercase; padding: 10px 0; font-weight: 400; font-size: 22px; margin: 0 30px;}
+#premium-1 .nav-tabs > li.active > a, #premium-1 .nav-tabs > li.active > a:hover, #premium-1 .nav-tabs > li.active > a:focus {border-width: 0 0 4px 0; border-style: solid; border-color: #cd1d4c; font-weight: 700;}
+#premium-1 .tab-content {padding: 0; margin: 0; border-radius: 0; border: 0; height: 250px;}
+#premium-1 .footing {text-align: center; margin-top: 40px;}
+#premium-1 .footing h5 {margin-top: 10px; text-transform: uppercase; font-weight: 700; color: #fff;}
+#premium-1 .footing p {color: #fff; font-size: 24px; width: 100%;}
+#premium-1 form .row {margin-bottom: 0;}
+#premium-1 #custom-search-1 {width: 100%; background: #fff; padding: 0;}
+#premium-1 #custom-search-1 input {border: 0; box-shadow: none; background: transparent; color: #333; height: auto; padding: 16px; font-size: 20px;}
+#premium-1 #custom-search-1 button {background: #cd1d4c; border: 0px; border-radius: 0px; margin: 0 10px; color: #fff; width: inherit; padding: 0 10px 0 10px;}
+#premium-1 #custom-search-1 button:hover {color: #fff; background: #545454;}
+#premium-1 #custom-search-1 .input-group-btn {width: 100px;}
+#premium-1 .img-overlay {opacity: 0.8;}
+#premium-1 .header-content .fa-angle-down {animation: 3000ms ease 0s normal none infinite running bounce; bottom: 50px; color: #fff; display: inline-block; font-size: 24px; left: 50%; line-height: 24px; margin-left: -12px; position: absolute; width: 24px; z-index: 999;}
+#premium-1 .form-control {border-radius: 0; color: #555; border: 0;}
+
+
+@media (min-width: 1440px) {
+	#premium-1 .header-content > div > div {width: 45% !important;}
+	}
+
+@media (max-width: 1024px) {
+	#premium-1 .nav-tabs > li {display: inline-block;}
+	#premium-1 .nav-tabs > li > a, #premium-1 .nav-tabs > li > a:hover, #premium-1 .nav-tabs > li > a:focus {font-size: 18px; padding: 10px;}
+	#premium-1 .nav-tabs > li.active > a, #premium-1 .nav-tabs > li.active > a:hover, #premium-1 .nav-tabs > li.active > a:focus {background: transparent;}
+	#premium-1 .tab-content {height: 280px;}
+	#premium-1 .footing p {width: 100%;}
+	#premium-1 .footing .btn {width: auto; margin: 5px 0; padding: 15px 30px;}
+	#premium-1 .header-content {padding-bottom: 0px; padding-top: 0px;}
+	#premium-1 .header-content h1 {font-size: 34px;}
+	#premium-1 .tab-content {height: 240px;}
+	#premium-1 .navbar-nav .open .dropdown-menu {float: none;}
+	}
+
+@media (min-width: 768px) {
+	#premium-1 .container {width: 80%;}
+	}
+
+@media (max-width: 768px) {
+	#premium-1 .main-nav {background: #fff;}
+	#premium-1 .footing {margin-top: 20px;}
+	#premium-1 #custom-search-1 .input-group-btn {width: 50px;}
+	#premium-1 .nav-tabs {margin-bottom: 20px;}
+	#premium-1 .nav-tabs > li > a, #premium-1 .nav-tabs > li > a:hover, #premium-1 .nav-tabs > li > a:focus {margin: 0 10px;}
+	#premium-1 .main-nav .navbar-header {background: #fff;}
+	#premium-1 .header-content .fa-angle-down {bottom: 70px;}
+	}
+
+@media (max-width: 480px) {
+	#premium-1 .header-content h1 {font-size: 26px;}
+	#premium-1 .tab-content {height: 340px;}
+	#premium-1 .form-group {width: 100%;}
+	}
+
+
+/* Header Block from Premium 2 */
+#premium-2 {position: relative; background-color: #000;}
+#premium-2 h1 {font-size: 46px; font-weight: 300; color: #fff;}
+#premium-2 .container {width: 90%; position: relative; z-index: 3;}
+#premium-2 .header-content {display: flex; justify-content: center; flex-direction: column; height: 700px; padding-top: 0; padding-bottom: 0; position: relative; z-index: 3; overflow-x: hidden;}
+#premium-2 .header-content h1 {margin-top: 0;}
+#premium-2 .header-content h3 {margin: 0 0 20px;}
+#premium-2 .nav-tabs > li > a, #premium-2 .nav-tabs > li > a:hover, #premium-2 .nav-tabs > li > a:focus {background: transparent; color: #fff !important; font-size: 20px; padding: 10px 15px; opacity: 1; border-radius: 0; border: 0;}
+#premium-2 .nav-tabs > li.active > a, #premium-2 .nav-tabs > li.active > a:hover, #premium-2 .nav-tabs > li.active > a:focus {border-width: 0 0 4px 0; border-style: solid; border-color: #fff;}
+#premium-2 .tab-content {padding: 0; margin: 0; border-radius: 0; border: 0; height: 250px;}
+#premium-2 #custom-search-1 {width: 100%; background: #fff; padding: 0;}
+#premium-2 #custom-search-1 input {border: 0; box-shadow: none; padding: 8px 12px; font-size: 16px; background: transparent; color: #333; height: auto;}
+#premium-2 #custom-search-1 .input-group-btn {width: 50px;}
+#premium-2 #custom-search-1 button {margin: inherit; width: inherit; padding: 0 10px 0 10px;}
+#premium-2 #custom-search-1 button:hover {color: #111;}
+#premium-2 form .row {margin-bottom: 0;}
+#premium-2 .footing {text-align: left; margin-top: 10px;}
+#premium-2 .footing h5 {margin-top: 10px; text-transform: uppercase; font-weight: 700; color: #fff;}
+#premium-2 .footing p {color: #fff; width: 80%;}
+#premium-2 .img-overlay {opacity: 0.8;}
+#premium-2 .form-control {border-radius: 0; color: #555; border: 0;}
+
+@media (min-width: 1440px) {
+	#premium-2 .header-content > div > div {width: 45% !important;}
+	}
+
+@media (max-width: 1024px) {
+	#premium-2 .nav-tabs > li {display: inline-block;}
+	#premium-2 .nav-tabs > li > a, #premium-2 .nav-tabs > li > a:hover, #premium-2 .nav-tabs > li > a:focus {font-size: 18px; padding: 10px;}
+	#premium-2 .nav-tabs > li.active > a, #premium-2 .nav-tabs > li.active > a:hover, #premium-2 .nav-tabs > li.active > a:focus {background: transparent;}
+	#premium-2 .tab-content {height: 280px;}
+	#premium-2 .footing p {width: 100%;}
+	#premium-2 .footing .btn {width: auto; margin: 5px 0; padding: 15px 30px;}
+	#premium-2 .header-content {height: 650px; padding-bottom: 0px; padding-top: 0px;}
+	#premium-2 .header-content h1 {font-size: 34px;}
+	#premium-2 .tab-content {height: 240px;}
+	}
+
+@media (max-width: 480px) {
+	#premium-2 .header-content h1 {font-size: 26px;}
+	#premium-2 .tab-content {height: 340px;}
+	#premium-2 .form-group {width: 100%;}
+	}
+
+
+/* Video Block from Premium 3 */
+#premium-3 {background-color: rgba(0,0,0,0.5); color: #fff; position: relative; height: calc(100vh - 140px); min-height: 400px;}
+#premium-3 .premium-3-content {position: absolute; z-index: 3; bottom: 80px; left: 80px; width: 600px; width: 100%; max-width: 1000px; animation: 1000ms ease 0s normal none fadeInRight;}
+#premium-3 .premium-3-content #custom-search-1 {background-color: rgba(0,0,0,0.15); border: 1px solid #fff; width: 70%; float: left; padding: 0px;}
+#premium-3 .premium-3-content #custom-search-1 input {padding: 22px;}
+#premium-3 .premium-3-content #custom-search-1 button {padding: 0 20px; margin: 0px; height: 70px; color: #fff; border-radius: 0;}
+#premium-3 .premium-3-content #custom-search-1 button:hover {color: #444; background: #fff;}
+#premium-3 .premium-3-content #custom-search-1 .input-group-btn {width: 100px;}
+#premium-3 .premium-3-content h1 {color: #fff; font-size: 60px; font-weight: 300; line-height: 1;}
+#premium-3 .premium-3-content .custom-btn {border: 1px solid #fff; display: inline; margin: 0 20px 0 0; font-size: 20px; padding: 21px 30px; float: left;}
+#premium-3 .img-overlay {opacity: 0.6;}
+#premium-3 .anchor-scroll {animation: 3000ms ease 0s normal none infinite running bounce; position: absolute; z-index: 3; color: #fff !important; opacity: 0.8; padding: 20px; bottom: 50px; right: 0; font-size: 26px;}
+#premium-3 .anchor-scroll:hover {opacity: 1;}
+
+@media (max-width: 992px) {
+	#premium-3 {background-color: #000;}
+	#premium-3 .premium-3-content {bottom: 120px; left: 0px; width: 100%; padding: 0 40px;}
+	#premium-3 .premium-3-content h1 {font-size: 34px;}
+	#premium-3 .anchor-scroll {bottom: 0; left: 50%; margin-left: -26px;}
+	#premium-3 .premium-3-content #custom-search-1 {width: 100%; float: none !important; display: block;}
+	#premium-3 .premium-3-content .custom-btn {margin: 0 0 20px 0 !important; float: none !important; display: block;}
+	#premium-3 .premium-3-content #custom-search-1 .input-group-btn {width: 52px;}
+}
+
+
+/* Intro Block from Premium 1 */
+.premium-intro {padding: 20% 0; color: #fff; background-color: #000; position: relative; text-align: center;}
+.premium-intro .container {position: relative; z-index: 3;}
+.premium-intro h2 {font-weight: 900; font-size: 55px; letter-spacing: 1px; line-height: 60px; text-transform: uppercase; margin: 0;}
+.premium-intro h3 {font-weight: 700; margin: 0; text-transform: uppercase;}
+.premium-intro p {font-size: 22px; color: #fff;}
+.premium-intro .btn {margin: 5px;}
+/* .img-overlay opacity was changed from 0.15 to .01 because when you save the block, opacity became 0, all this because 0.15 is not a value on sitebuilder the dropdow menu  */
+.premium-intro .img-overlay {opacity: 0.1;} 
+
+
+/* Featured Neighborhoods Slider from Premium 1 */
+.neighborhood-1 {padding: 20% 0; background-color: #000; text-align: center;}
+.neighborhood-1 .container {position: relative; z-index: 3; height: 400px; flex-direction: column; justify-content: center; align-items: center;}
+.neighborhood-1 .carousel-inner {max-width: 800px; margin: 0 auto;}
+.neighborhood-1 h1 {color: #fff; font-weight: 700; margin-bottom: 20px;}
+.neighborhood-1 h4 {color: #fff; margin-bottom: 40px;}
+.neighborhood-1 i {color: #fff; font-size: 60px;}
+/* .img-overlay opacity was changed from 0.45 to .04 because when you save the block, opacity became 0, all this because 0.15 is not a value on sitebuilder the dropdow menu  */
+.neighborhood-1 .img-overlay {background-attachment: fixed; background-repeat: no-repeat; opacity: 0.4;}
+.neighborhood-1 .carousel-control {height: 60px; width: 60px; line-height: 60px; text-shadow: none; top: 50%; background: transparent; border: 0px;}
+.neighborhood-1 .carousel-control .fa {color: #fff; font-size: 36px; height: 60px; width: 60px; line-height: 60px; margin-bottom: 0px; border: 0px; background: transparent;}
+
+@media (max-width: 989px) {
+	.neighborhood-1 .carousel-inner {max-width: 600px;}
+}
+
+@media (max-width: 768px) {
+	.neighborhood-1 h1 {font-size: 40px;}
+	.neighborhood-1 h4 {margin-bottom: 20px;}
+	.neighborhood-1 .carousel-inner {max-width: 100%; padding: 0 45px;}
+	.neighborhood-1 .carousel-control {height: 30px; width: 30px; line-height: 30px;}
+	.neighborhood-1 .carousel-control .fa {font-size: 24px; height: 30px; width: 30px; line-height: 30px;}
+	.neighborhood-1 .carousel-control.left {left: 0px;}
+	.neighborhood-1 .carousel-control.right {right: 0px;}
+	.neighborhood-1 .img-overlay {background-attachment: unset;}
+}
+
+
+/* Why Work With Us Slider from Premium 1 */
+.promo-slider-1 {background-color: #fff; padding: 100px 0; text-align: center;}
+.promo-slider-1 .container {position: relative; z-index: 3;}
+.promo-slider-1 .carousel-inner {margin: 0 auto 20px; max-width: 900px;}
+.promo-slider-1 .carousel-inner .item {height: 560px;}
+.promo-slider-1 .carousel-inner .caption img {padding: 0 40px; max-height: 500px; margin: 0 auto;}
+.promo-slider-1 .carousel-inner .caption h3 {color: #555; font-weight: 400; margin-top: 20px; margin-bottom: 0px;}
+.promo-slider-1 .carousel-indicators {position: relative; bottom: auto; top: auto; left: 50%; right: auto; margin: 25px 0 25px -30%; text-align: center; z-index: 15; width: 60%; padding: 0px; line-height: 10px;}
+.promo-slider-1 .carousel-indicators li {background-color: rgba(0,0,0, 0.15); border: 0px; height: 8px; margin: 0 4px; width: 8px;}
+.promo-slider-1 .carousel-indicators .active {background-color: rgba(0,0,0, 0.65);}
+.promo-slider-1 .carousel-control {height: 60px; width: 60px; line-height: 60px; text-shadow: none; top: 40%; background: transparent; border: 0px;}
+.promo-slider-1 .carousel-control .fa {color: #aaa; font-size: 36px; line-height: 60px;}
+.promo-slider-1 p {color: #919191; margin: 0px; font-size: 20px;}
+
+@media (max-width: 768px) {
+	.promo-slider-1 .carousel-inner .item {height: 400px;}
+	.promo-slider-1 .carousel-inner .caption img {max-height: 300px;}
+	.promo-slider-1 .carousel-control {height: 30px; width: 30px; line-height: 30px;}
+	.promo-slider-1 .carousel-control .fa {font-size: 24px;}
+	.promo-slider-1 .carousel-control.left {left: -10px;}
+	.promo-slider-1 .carousel-control.right {right: -10px;}
+}
+
+@media (max-width: 480px) {
+	.promo-slider-1 .carousel-inner .item {height: 300px;}
+	.promo-slider-1 .carousel-inner .caption img {max-height: 200px;}
+}
+
+
+/* Buying Selling from Premium 2 */
+.content-7n.premium .tile-grid {padding: 0;}
+.content-7n.premium .tile-grid:first-child {background-color: #881825;}
+.content-7n.premium .tile-grid:last-child {background-color: #222;}
+.content-7n.premium .tile-grid .tile-grid-content {display: flex; flex-direction: column; justify-content: center; height: 100%; position: relative; bottom: unset; z-index: 3; padding: 40% 0; max-width: 600px; margin: 0 auto; text-align: center; min-height: 400px;}
+.content-7n.premium .tile-grid .tile-grid-content h4 {color: #fff; letter-spacing: 1px; margin: 0; text-transform: uppercase;}
+.content-7n.premium .tile-grid .tile-grid-content h2 {color: #fff; font-size: 50px; font-weight: 900; line-height: 60px; letter-spacing: 2px; margin-bottom: 25px; text-transform: uppercase;}
+.content-7n.premium .tile-grid .tile-grid-content p {color: #fff; font-size: 22px;}
+/* .img-overlay opacity was changed from 0.15 to .01 because when you save the block, opacity became 0, all this because 0.15 is not a value on sitebuilder the dropdow menu  */
+.content-7n.premium .tile-grid .img-overlay {opacity: 0.1;}
+/* From Premium 3 Short and Left Aligned */
+.content-7n.premium.shortened .tile-grid .tile-grid-content {padding: 10% 60px; text-align: left;}
+@media (min-width: 992px) {
+	.content-7n.premium.shortened .row {display: flex;}
+}
+@media (max-width: 768px) {
+	.content-7n.premium.shortened .tile-grid .tile-grid-content, .content-7n.premium .tile-grid .tile-grid-content {padding: 80px 20px;}
+}
+
+
+/* Overlay Box */
+.overlay-box {padding: 0px; background-color: transparent;}
+.overlay-box .container {position: relative; z-index: 2; padding: 16% 30px; margin-top: -200px;}
+/* If Box Doesn't Need to Overlay (Default) */
+.overlay-box.wo-top-margin {padding: 60px 20px;}
+.overlay-box.wo-top-margin .container {margin-top: 0;}
+.overlay-box .inner-content {opacity: 0.85; position: relative; z-index: 3; margin: 0 auto; max-width: 800px; padding: 60px 40px;}
+.overlay-box .inner-content h4 {color: #fff; font-weight: 500; letter-spacing: 1px; margin-bottom: 15px; text-transform: uppercase;}
+.overlay-box .inner-content h2 {color: #fff; font-size: 50px; font-weight: 900; line-height: 60px; letter-spacing: 2px; margin-bottom: 25px; text-transform: uppercase;}
+.overlay-box .inner-content p {color: #fff; background-color: transparent; font-size: 22px; font-weight: 400; letter-spacing: 0px; line-height: 30px; text-transform: none;}
+.overlay-box .inner-content .img-overlay {z-index: -1; opacity: 1;}
+
+@media (max-width: 768px) {
+	.overlay-box .container {margin-top: -60px; padding: 0px;}
+}
+
+
+/* Big Dark Testimonial */
+.testimonials-5 {background-color: #222; height: 90vh; min-height: 600px; text-align: center;}
+.testimonials-5 .container {position: relative; z-index: 3; display: flex; flex-direction: column; justify-content: center; height: 100%;}
+.testimonials-5 .carousel-inner {max-width: 1000px; margin: 0 auto;}
+.testimonials-5 .caption h2 {color: #fff; font-size: 45px; line-height: 50px; font-weight: 900; font-style: italic; margin-bottom: 30px;}
+.testimonials-5 .caption h5 {text-transform: uppercase; font-weight: 700;}
+.testimonials-5 .carousel-control {height: 60px; width: 60px; line-height: 60px; text-shadow: none; background: transparent; border: 0px;}
+.testimonials-5 .carousel-control .fa {color: #aaa; font-size: 36px; height: 60px; width: 60px; line-height: 60px; margin-bottom: 0px; border: 0px; background: transparent;}
+.testimonials-5 .img-overlay {background-attachment: fixed; background-repeat: no-repeat; opacity: 0.1;}
+
+@media (max-width: 989px) {
+	.testimonials-5 .carousel-inner {max-width: 600px;}
+	.testimonials-5 .caption h2 {font-size: 34px; line-height: 40px;}
+}
+@media (max-width: 768px) {
+	.testimonials-5 .carousel-inner {max-width: 100%; padding: 0 15px;}
+	.testimonials-5 .caption h2 {font-size: 26px; line-height: 30px;}
+	.testimonials-5 .carousel-control {height: 30px; width: 30px; line-height: 30px;}
+	.testimonials-5 .carousel-control .fa {font-size: 24px; height: 30px; width: 30px; line-height: 30px;}
+	.testimonials-5 .carousel-control.left {left: 0px;}
+	.testimonials-5 .carousel-control.right {right: 0px;}
+	.testimonials-5 .img-overlay {background-attachment: unset;}
+}
+
+
+/* Number Counter from Premium 3 */
+.premium-counter {padding: 20% 0; background-color: #000; position: relative;}
+.premium-counter .container {z-index: 3; position: relative; animation: 1000ms ease 0s normal none bounceInUp;}
+.premium-counter h5 {color: #fff; text-transform: uppercase; font-weight: 700; margin: 0 0 40px;}
+.premium-counter .icon-outline {border: 4px solid #ddd; border-radius: 50%; height: 150px; max-width: 100%; position: relative; transition: box-shadow 0.2s ease 0s; vertical-align: middle; width: 150px; margin: 0 auto 30px;}
+.premium-counter .icon-outline:hover {box-shadow: 0 0 0 14px rgba(255, 255, 255, 0.4);}
+.premium-counter .icon-outline i {font-size: 80px; margin: 0px; height: 142px; width: 142px; position: absolute; display: flex; flex-direction: column; justify-content: center; line-height: 80px; color: #fff; opacity: 0.25; animation: 1000ms ease 0s normal none pulse; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; animation-duration: 3s;}
+.premium-counter .icon-outline h2 {color: #fff; font-size: 38px; line-height: 38px; margin-bottom: 0px; height: 142px; width: 142px; display: flex; flex-direction: column; justify-content: center; font-weight: 700;}
+/* .img-overlay opacity was changed from 0.15 to .01 because when you save the block, opacity became 0, all this because 0.15 is not a value on sitebuilder the dropdow menu  */
+.premium-counter .img-overlay {background-attachment: fixed; opacity: 0.2;}
+.premium-counter .infinite {-webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; animation-duration: 3s;}
+
+@media (max-width: 768px) {
+	.premium-counter .img-overlay {background-attachment: unset;}
+}
+
+
+/* Get In Touch Contact Form */
+.premium-contact {background-color: #f3f5f8; padding: 10% 0; position: relative; text-align: center;}
+.premium-contact h1 {color: #111;}
+.premium-contact #message {margin-bottom: 20px; padding: 0;}
+.premium-contact .error_message {display: block; background: #FBE3E4; padding: 10px 0; color: #8a1f11; border: 2px solid #FBC2C4; border-radius: 6px;}
+.premium-contact .form-control {background-color: transparent; border-width: 0 0 1px 0; border-style: solid; border-color: #eee; border-radius: 0; font-size: 16px; padding: 12px 0; height: auto;}
+.premium-content.lighter .form-control {color: #333;}
+
+/* Get In Touch Contact Form With Agent */
+.premium-team-contact {background-color: #fff; padding: 100px 0; position: relative;}
+.premium-team-contact img {margin-bottom: 20px; max-width: 275px; margin: 0 auto;}
+.premium-team-contact h2 {margin: 0 0 10px;}
+.premium-team-contact h3 {margin: 15px 0 5px;}
+.premium-team-contact h6 {margin: 0 0 20px; font-weight: 700; text-transform: uppercase;}
+
+
+@media (max-width: 768px) {
+	.premium-team-contact img {max-width: 200px;}	
+	.premium-team-contact h2 {margin: 0 0 10px; text-align: center;}
+	.premium-team-contact ul {text-align: center;}
+}
+
+.premium-team-contact #message {margin-bottom: 20px; padding: 0;}
+.premium-team-contact .error_message {display: block; background: #FBE3E4; padding: 10px 0; color: #8a1f11; border: 2px solid #FBC2C4; border-radius: 6px;}
+.premium-team-contact .form-control {background-color: transparent; border-width: 0 0 1px 0; border-style: solid; border-color: #eee; border-radius: 0; font-size: 16px; padding: 12px 0; height: auto;}
+
+
+
+
+/* Buying/Selling */
+.premium-content {background: #fff; position: relative; padding: 160px 0; overflow-x: hidden;}
+.premium-content .container, .premium-content .container-fluid {position: relative; z-index: 3;}
+.premium-content.darker h2, .premium-content.darker h3, .premium-content.darker p {color: #fff;}
+.premium-content.lighter h2 {color: #111;}
+
+.premium-content h2 {font-size: 46px;}
+.premium-content.heading-block h2 {text-align: center; margin-bottom: 40px; color: #111;}
+.premium-content h3 {font-weight: 600; text-transform: uppercase;}
+.premium-content h4 {margin: 0 0 20px;}
+.premium-content p {font-weight: 400; font-size: 20px; line-height: 1.4; margin-bottom: 20px;}
+.premium-content .form-control {background-color: transparent; border-width: 0 0 1px 0; border-style: solid; border-color: #eee; border-radius: 0; font-size: 16px; padding: 12px 0; height: auto; color: #fff;}
+
+@media (max-width: 991px) {
+	.premium-content {padding: 80px 40px !important;}
+	.premium-content.heading-block {padding: 80px 10px !important}
+	.premium-content img {margin-top: 40px;}
+	.premium-content img.pull-right {margin-right: -25px;}
+}
+
+
+
